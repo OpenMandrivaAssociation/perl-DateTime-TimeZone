@@ -4,7 +4,7 @@
 %define	name		perl-%{module}
 
 %define	version		0.59
-%define	release		%mkrel 2
+%define	release		%mkrel 3
 
 # circular dependency
 %define _requires_exceptions perl(DateTime)\\|perl(DateTime::Duration)
