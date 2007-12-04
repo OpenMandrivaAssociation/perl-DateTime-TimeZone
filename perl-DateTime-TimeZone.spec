@@ -3,7 +3,7 @@
 
 %define	name		perl-%{module}
 
-%define	version		0.69
+%define	version		0.70
 %define	release		%mkrel 1
 
 # circular dependency
