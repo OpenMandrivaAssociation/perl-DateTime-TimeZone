@@ -19,7 +19,6 @@ Group:		Development/Perl
 Source:		http://www.cpan.org/modules/by-module/%{modprefix}/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
 %endif
