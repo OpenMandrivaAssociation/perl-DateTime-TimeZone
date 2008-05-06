@@ -3,7 +3,7 @@
 
 %define	name		perl-%{module}
 
-%define	version		0.74
+%define	version		0.75
 %define	release		%mkrel 1
 
 # circular dependency
@@ -18,8 +18,6 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Source:		http://www.cpan.org/modules/by-module/%{modprefix}/%{module}-%{version}.tar.bz2
 Url:		http://search.cpan.org/dist/%{module}
-BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
 %endif
@@ -28,6 +26,8 @@ BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Params::Validate) >= 0.72
 BuildRequires:	perl(Pod::Man) >= 1.14
 Provides:	perl(DateTime::TimeZoneCatalog)
+BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This perl module defines the base class for all time zone objects. A time zone
@@ -44,6 +44,8 @@ directly use DateTime::TimeZone methods.
 %build
 %{__perl} Build.PL installdirs=vendor destdir=%{buildroot}
 ./Build
+
+%check
 ./Build test
 
 %install
