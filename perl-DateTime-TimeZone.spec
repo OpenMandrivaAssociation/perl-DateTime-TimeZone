@@ -1,5 +1,5 @@
 %define	upstream_name    DateTime-TimeZone
-%define	upstream_version 0.96
+%define	upstream_version 0.97
 
 # circular dependency
 %define _requires_exceptions perl(DateTime)\\|perl(DateTime::Duration)
@@ -22,8 +22,10 @@ BuildRequires:	perl(Class::Singleton) >= 1.03
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Params::Validate) >= 0.72
 BuildRequires:	perl(Pod::Man) >= 1.14
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
+
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
+
 Provides:	perl(DateTime::TimeZoneCatalog)
 
 %description
@@ -58,4 +60,3 @@ rm -rf %{buildroot}
 %doc Changes README
 %{perl_vendorlib}/DateTime
 %{_mandir}/*/*
-
