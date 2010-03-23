@@ -1,5 +1,5 @@
 %define	upstream_name    DateTime-TimeZone
-%define upstream_version 1.13
+%define upstream_version 1.14
 
 # circular dependency
 %define _requires_exceptions perl(DateTime)\\|perl(DateTime::Duration)
