@@ -1,5 +1,5 @@
 %define	upstream_name    DateTime-TimeZone
-%define upstream_version 1.23
+%define upstream_version 1.26
 
 # circular dependency
 %define _requires_exceptions perl(DateTime)\\|perl(DateTime::Duration)
@@ -15,9 +15,7 @@ Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/DateTime/%{upstream_name}-%{upstream_version}.tar.gz
 
-%if %{mdkversion} < 1010
-BuildRequires:	perl-devel
-%endif
+BuildRequires:	perl(Class::Load)
 BuildRequires:	perl(Class::Singleton) >= 1.03
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Params::Validate) >= 0.72
