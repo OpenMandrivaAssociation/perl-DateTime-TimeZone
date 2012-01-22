@@ -6,7 +6,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 3
+Release:	%mkrel 4
 Epoch:		1
 
 Summary:	Time zone object base class and factory
