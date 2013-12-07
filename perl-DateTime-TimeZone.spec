@@ -10,7 +10,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	11
+Release:	12
 Epoch:		1
 
 Summary:	Time zone object base class and factory
