@@ -1,2 +1,4 @@
+removed_sources:
+  DateTime-TimeZone-1.46.tar.gz: ecb425c1094ab69fec472c4aa95764cd313a718a
 sources:
-  "DateTime-TimeZone-1.46.tar.gz": ecb425c1094ab69fec472c4aa95764cd313a718a
+  DateTime-TimeZone-1.60.tar.gz: 96a818612cd1e62c6f8027674cf9023b576a2ada
