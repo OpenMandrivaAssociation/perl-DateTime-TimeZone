@@ -1,5 +1,5 @@
 %define	upstream_name    DateTime-TimeZone
-%define upstream_version 1.60
+%define upstream_version 1.63
 
 # circular dependency
 %if %{_use_internal_dependency_generator}
@@ -336,5 +336,6 @@ directly use DateTime::TimeZone methods.
 
 * Fri Aug 27 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 0.28-1mdk
 - Initial MDK release.
+
 
 
