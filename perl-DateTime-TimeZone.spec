@@ -56,6 +56,6 @@ directly use DateTime::TimeZone methods.
 %makeinstall_std
 
 %files
-%doc Changes README
+%doc Changes 
 %{perl_vendorlib}/DateTime
 %{_mandir}/*/*
