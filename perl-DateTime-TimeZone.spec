@@ -1,5 +1,5 @@
 %define	upstream_name    DateTime-TimeZone
-%define upstream_version 1.70
+%define upstream_version 1.74
 
 # circular dependency
 %if %{_use_internal_dependency_generator}
@@ -10,7 +10,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 Epoch:		1
 
 Summary:	Time zone object base class and factory
@@ -59,7 +59,3 @@ directly use DateTime::TimeZone methods.
 %doc Changes README
 %{perl_vendorlib}/DateTime
 %{_mandir}/*/*
-
-
-
-
