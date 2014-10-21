@@ -22,6 +22,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/DateTime/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  perl-devel
+BuildRequires: perl(namespace::clean)
 BuildRequires:	perl(Class::Load)
 BuildRequires:	perl(Class::Singleton) >= 1.03
 BuildRequires:	perl(Module::Build)
