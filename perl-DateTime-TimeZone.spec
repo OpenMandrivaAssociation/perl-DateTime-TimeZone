@@ -22,7 +22,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/DateTime/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  perl-devel
-BuildRequires: perl(namespace::clean)
+BuildRequires:	perl(namespace::clean)
 BuildRequires:	perl(Class::Load)
 BuildRequires:	perl(Class::Singleton) >= 1.03
 BuildRequires:	perl(Module::Build)
@@ -33,6 +33,7 @@ BuildRequires:	perl(Test::Requires)
 BuildArch:	noarch
 
 Provides:	perl(DateTime::TimeZoneCatalog)
+Requires:	perl(namespace::clean)
 
 %description
 This perl module defines the base class for all time zone objects. A time zone
