@@ -7,5 +7,6 @@ removed_sources:
   DateTime-TimeZone-1.70.tar.gz: 0f9b98d777f21e50cd123397a505539e7788342e
   DateTime-TimeZone-1.74.tar.gz: 8fdcae4087fa7c40e5470a5a5a04e15663063481
   DateTime-TimeZone-1.75.tar.gz: 9b51fd924d1fcf4b0187bfc30146fbf7398302d5
-sources:
   DateTime-TimeZone-1.76.tar.gz: dd958e592e89764b3444c293611a911d1b3d11c5
+sources:
+  DateTime-TimeZone-1.78.tar.gz: 96a4f664d9ee3d67fa4e36c6c58c1528495c4662
