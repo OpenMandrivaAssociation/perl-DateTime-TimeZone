@@ -1,5 +1,5 @@
 %define	upstream_name    DateTime-TimeZone
-%define upstream_version 1.78
+%define upstream_version 1.81
 
 # circular dependency
 %if %{_use_internal_dependency_generator}
@@ -10,7 +10,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 Epoch:		1
 
 Summary:	Time zone object base class and factory
@@ -49,7 +49,7 @@ directly use DateTime::TimeZone methods.
 %setup -q -n %{upstream_name}-%{upstream_version}
 
 %build
-%{__perl} Makefile.PL installdirs=vendor destdir=%{buildroot}
+perl Makefile.PL installdirs=vendor destdir=%{buildroot}
 %make
 
 %check
