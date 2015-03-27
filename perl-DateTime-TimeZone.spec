@@ -1,5 +1,5 @@
 %define	upstream_name    DateTime-TimeZone
-%define upstream_version 1.81
+%define upstream_version 1.85
 
 # circular dependency
 %if %{_use_internal_dependency_generator}
