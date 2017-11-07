@@ -1,13 +1,2 @@
-removed_sources:
-  DateTime-TimeZone-1.46.tar.gz: ecb425c1094ab69fec472c4aa95764cd313a718a
-  DateTime-TimeZone-1.60.tar.gz: 96a818612cd1e62c6f8027674cf9023b576a2ada
-  DateTime-TimeZone-1.63.tar.gz: 1b7e0ae1bce875d11d119cb59062fbad8290bbb3
-  DateTime-TimeZone-1.65.tar.gz: b26a20cf69a272d5445fbe8f76efb6fd7062287f
-  DateTime-TimeZone-1.69.tar.gz: 3760d1e88331b8b5e8ebcad46e2b118b329d5c9f
-  DateTime-TimeZone-1.70.tar.gz: 0f9b98d777f21e50cd123397a505539e7788342e
-  DateTime-TimeZone-1.74.tar.gz: 8fdcae4087fa7c40e5470a5a5a04e15663063481
-  DateTime-TimeZone-1.75.tar.gz: 9b51fd924d1fcf4b0187bfc30146fbf7398302d5
-  DateTime-TimeZone-1.76.tar.gz: dd958e592e89764b3444c293611a911d1b3d11c5
-  DateTime-TimeZone-1.78.tar.gz: 96a4f664d9ee3d67fa4e36c6c58c1528495c4662
 sources:
-  DateTime-TimeZone-1.81.tar.gz: 63a60ce3d13b24ada4a1aa2f9aa10998065b2c4e
+  DateTime-TimeZone-2.15.tar.gz: 1097e180d4dfa7d1325b484a943397b2ac3f520e
