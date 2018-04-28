@@ -1,5 +1,5 @@
 %define	upstream_name    DateTime-TimeZone
-%define upstream_version 2.15
+%define upstream_version 2.18
 
 # circular dependency
 %if %{_use_internal_dependency_generator}
@@ -22,14 +22,18 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/DateTime/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:  perl-devel
-BuildRequires: perl(Test::Fatal)
+BuildRequires:	perl(Test::Fatal)
 BuildRequires:	perl(namespace::clean)
+BuildRequires:	perl(namespace::autoclean)
 BuildRequires:	perl(Class::Load)
 BuildRequires:	perl(Class::Singleton) >= 1.03
 BuildRequires:	perl(Module::Build)
 BuildRequires:	perl(Params::Validate) >= 0.72
 BuildRequires:	perl(Pod::Man) >= 1.14
 BuildRequires:	perl(Test::Requires)
+BuildRequires:	perl(Params::ValidationCompiler)
+BuildRequires:	perl(Specio::Library::String)
+BuildRequires:	perl(Specio::Library::Builtins)
 
 BuildArch:	noarch
 
