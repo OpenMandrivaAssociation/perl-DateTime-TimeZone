@@ -34,6 +34,7 @@ BuildRequires:	perl(Test::Requires)
 BuildRequires:	perl(Params::ValidationCompiler)
 BuildRequires:	perl(Specio::Library::String)
 BuildRequires:	perl(Specio::Library::Builtins)
+BuildRequires:	perl(Sub::Identify)
 
 BuildArch:	noarch
 
