@@ -8,8 +8,8 @@
 %endif
 
 Name:		perl-%{upstream_name}
-Version:	2.63
-Release:	2
+Version:	2.65
+Release:	1
 
 Summary:	Time zone object base class and factory
 
