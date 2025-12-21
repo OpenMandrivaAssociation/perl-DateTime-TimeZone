@@ -19,6 +19,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/DateTime::TimeZone
 Source0:	http://www.cpan.org/modules/by-module/DateTime/%{upstream_name}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:  perl-devel
 BuildRequires:	perl(Test::Fatal)
 BuildRequires:	perl(namespace::clean)
