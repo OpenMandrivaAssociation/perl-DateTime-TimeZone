@@ -8,7 +8,7 @@
 %endif
 
 Name:		perl-%{upstream_name}
-Version:	2.65
+Version:	2.69
 Release:	1
 
 Summary:	Time zone object base class and factory
@@ -16,8 +16,8 @@ Summary:	Time zone object base class and factory
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://metacpan.org/pod/DateTime::TimeZone
-Source0:	http://www.cpan.org/modules/by-module/DateTime/%{upstream_name}-%{version}.tar.gz
+Url:		https://metacpan.org/release/DateTime-TimeZone
+Source0:	https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/%{upstream_name}-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:  perl-devel
