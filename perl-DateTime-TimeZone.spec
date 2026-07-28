@@ -9,7 +9,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	2.69
-Release:	1
+Release:	2
 
 Summary:	Time zone object base class and factory
 
@@ -53,7 +53,7 @@ directly use DateTime::TimeZone methods.
 %autosetup -p1 -n %{upstream_name}-%{version}
 
 %build
-perl Makefile.PL installdirs=vendor destdir=%{buildroot}
+perl Makefile.PL INSTALLDIRS=vendor
 %make_build
 
 %check
